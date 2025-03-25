@@ -1,7 +1,7 @@
 import random
 import os
 
-# Color codes for terminal (Optional)
+# Color codes for terminal
 class Colors:
     CYAN = '\033[96m'
     GREEN = '\033[92m'
@@ -23,6 +23,8 @@ def show_logo():
 /_____//_/    \___/ \__,_/ \___//_/ /_/  /_/    /_/    \____/ \__/ \____/ \___/ \____//_/   
                                                             
     {Colors.YELLOW}Cyberpunk 2077 - Terminal Breach Protocol{Colors.RESET}
+    {Colors.CYAN}               by frankunati{Colors.RESET}
+    {Colors.CYAN}   Github: https://github.com/frankunati{Colors.RESET}
     """
     print(logo)
 
